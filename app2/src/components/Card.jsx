@@ -1,7 +1,7 @@
 export default function Card({ nombre, edad, informacion }) {
   return (
     <>
-      <div className="min-h-screen w-full bg-gray-100 flex flex-col items-center justify-center p-4">
+      <div className="min-h-screen w-full bg-white flex flex-col items-center justify-center p-4">
         <div className="max-w-2xl bg-white rounded-xl shadow-xl p-8 space-y-8">
           {/* Foto responsive */}
           <div className="w-full rounded-lg overflow-hidden">
