@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import IngresarEstudiante from "./components/IngresarEstudiante"
 import Card from './components/Card' 
 import Formulario from './components/Formulario'
 import Todo from './components/Todo'
@@ -20,6 +21,8 @@ function App() {
       <br></br>
       <Formulario/>
       <Todo/>
+      <br></br>
+      <IngresarEstudiante/>
 
     </>
   )
