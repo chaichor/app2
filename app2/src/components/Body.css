@@ -1,0 +1,10 @@
+.body-container {
+    display: flex;
+    flex-direction: column; /* Cambiar a columna para apilar los elementos verticalmente */
+    justify-content: flex-start; /* Alinea los elementos al principio del contenedor */
+    align-items: center; /* Centra los elementos horizontalmente */
+    height: 100vh; /* Asegura que ocupe toda la altura de la ventana */
+    background-color: #000; /* Color de fondo opcional */
+    padding: 20px; /* Espaciado alrededor */
+  }
+  

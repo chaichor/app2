@@ -26,6 +26,16 @@ const Nav = () => {
                             To do List
                         </a>
                     </li>
+                    <li>
+                        <a href="/IngEst" className="hover:text-gray-200">
+                            Estudiantes
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/CatBio" className="hover:text-gray-200">
+                            Gato
+                        </a>
+                    </li>
                 </ul>
             </div>
         </nav>
